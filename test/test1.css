@@ -1,0 +1,16 @@
+div{
+    border: 8px solid #e6d45a;
+    padding: 20px 80px;
+    background: red;
+    width: 100px;
+    border-radius: 45px;
+    box-shadow: 60px;
+}
+div :hover::after{
+    border: 8px solid greenyellow;
+    padding: 20px 80px;
+    background: blue;
+    width: 100px;
+    border-radius: 45px;
+    box-shadow: 60px;
+}
